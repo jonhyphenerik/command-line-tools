@@ -1,5 +1,3 @@
-
-
 function getUniqueClassesAndIds(element){
     const allElements = document.getElementsByTagName(element);
     allUniqueClasses=[]; allUniqueIds=[];
