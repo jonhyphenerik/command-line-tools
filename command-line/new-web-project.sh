@@ -1,13 +1,14 @@
 #!/bin/bash
 #imports variables in config.sh
 ../.gitignore/config.sh
-#creates project directory with copies from /tools/templates
+#creates project directory 
 echo Project Name:
-
 read projectname
 
 mkdir $projectname
 cd $projectname
+
+#creates files from templates
 cp ${filepath}/tools/templates/index.html index.html
 cp ${filepath}/tools/templates/reset.css reset.css
 cp ${filepath}/tools/templates/style.css style.css
