@@ -10,4 +10,4 @@ to install:
 1. fork and clone repo.
 2. update the filepath variable in .gitignore/config.sh. Customize aliases in config file (optional)
 3. paste this line in terminal:
-    filepath=[yourfilepath]; $filepath/tools/.gitignore/config.sh
+    filepath='yourfilepath'; $filepath/tools/.gitignore/config.sh
