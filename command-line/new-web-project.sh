@@ -1,15 +1,17 @@
 #!/bin/bash
-
+#imports variables in config.sh
+../config.sh
+#creates project directory with copies from /tools/templates
 echo Project Name:
 
 read projectname
 
 mkdir $projectname
 cd $projectname
-cp /Users/jon-eriknissen/devmtn/tools/templates/index.html index.html
-cp /Users/jon-eriknissen/devmtn/tools/templates/reset.css reset.css
-cp /Users/jon-eriknissen/devmtn/tools/templates/style.css style.css
-cp /Users/jon-eriknissen/devmtn/tools/templates/script.js script.js
+cp ${filepath}/tools/templates/index.html index.html
+cp ${filepath}/tools/templates/reset.css reset.css
+cp ${filepath}/tools/templates/style.css style.css
+cp ${filepath}/tools/templates/script.js script.js
 
+#opens project directory in VS Code. is dependent on installation of PATH command from VS Code.
 code .
-

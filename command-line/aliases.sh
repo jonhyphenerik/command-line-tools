@@ -1,3 +1,5 @@
 #!/bin/bash
 #aliases to use for daily web dev stuff
-alias nwp '~/devmtn/tools/command-line/new-web-project.sh'
+../config.sh
+#imports variables stored in config file
+alias nwp ${filepath}'/tools/command-line/new-web-project.sh'
