@@ -1,6 +1,6 @@
 #!/bin/bash
 #imports variables in config.sh
-../config.sh
+../.gitignore/config.sh
 #creates project directory with copies from /tools/templates
 echo Project Name:
 
