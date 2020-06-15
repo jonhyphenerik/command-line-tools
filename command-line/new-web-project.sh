@@ -6,11 +6,11 @@ mkdir $1
 cd $1
 
 #and create these files
-cp "~/tools/templates/index.html index.html" 
-cp "~/tools/templates/style.css style.css"
-cp "~/tools/templates/reset.css reset.css"
-cp "~/tools/templates/tools.js tools.js"
-cp "~/tools/templates/script.js script.js"
+cp "~templates/index.html index.html" 
+cp "~templates/style.css style.css"
+cp "~templates/reset.css reset.css"
+cp "~templates/tools.js tools.js"
+cp "~templates/script.js script.js"
 
 
 #opens project directory in VS Code. is dependent on installation of PATH command from VS Code.
