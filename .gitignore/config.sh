@@ -8,7 +8,11 @@
 filepath="/Users/jon-eriknissen/devmtn"
 
 #make command-line files executable
-chmod u+x "$filepath/tools/command-line/new-web-project.sh"
+chmod u+x "~/devmtn/tools/command-line/new-web-project.sh"
 
 #set aliases
-alias nwp="$filepath/tools/command-line/new-web-project.sh"
+alias nwp="/Users/jon-eriknissen/devmtn/tools/command-line/new-web-project.sh";
+
+alias cdcard="cd ~/devmtn/week-2/day-5/card-flip"
+
+alias cddev="cd "
